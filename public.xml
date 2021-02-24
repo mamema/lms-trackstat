@@ -5,7 +5,7 @@
   <plugins>
     <plugin name="trackstat mamema" version="0.00.1" minTarget="7.5" maxTarget="*">
       <title lang="EN">trackstat mamema</title>
-      <desc lang="EN">Airtunes for LMS</desc>
+      <desc lang="EN">Trackstat Test for LMS</desc>
       <url>
         https://github.com/mamema/lms-trackstat/blob/master/TrackStat-3.3.602.zip
       </url>
