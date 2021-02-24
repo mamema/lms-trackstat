@@ -1,0 +1,18 @@
+<extensions>
+  <details>
+    <title lang="EN">trackstat mamema</title>
+  </details>
+  <plugins>
+    <plugin name="trackstat mamema" version="0.00.1" minTarget="7.5" maxTarget="*">
+      <title lang="EN">trackstat mamema</title>
+      <desc lang="EN">Airtunes for LMS</desc>
+      <url>
+        https://github.com/mamema/lms-trackstat/blob/master/TrackStat-3.3.602.zip
+      </url>
+      <link>hhttps://github.com/mamema/lms-trackstat</link>
+      <sha>8d04f21bb1f7217dc9244bb47201f994cea9cc18</sha>
+      <creator>MAMEMA</creator>
+      <email>mamema2003@hotmail.com</email>
+    </plugin>
+  </plugins>
+</extensions>
