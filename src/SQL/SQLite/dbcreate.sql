@@ -7,7 +7,6 @@ CREATE TABLE IF NOT EXISTS persistentdb.track_statistics (
   rating int(10),
   filesize int(10)
 );
-);
 
 CREATE TABLE IF NOT EXISTS persistentdb.track_history (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
