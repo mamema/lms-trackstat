@@ -13,6 +13,7 @@ CREATE TABLE IF NOT EXISTS persistentdb.track_history (
   url text NOT NULL,
   musicbrainz_id varchar(40),	-- musicbrainz uuid (36 bytes of text)
   played int(10),
-  rating int(10)
+  rating int(10),
+  filesize int(10)
 );
 
