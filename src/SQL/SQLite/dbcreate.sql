@@ -4,7 +4,9 @@ CREATE TABLE IF NOT EXISTS persistentdb.track_statistics (
   playCount int(10),
   added int(10),
   lastPlayed int(10),
-  rating int(10)
+  rating int(10),
+  filesize int(10)
+);
 );
 
 CREATE TABLE IF NOT EXISTS persistentdb.track_history (
