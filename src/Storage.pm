@@ -1321,7 +1321,8 @@ sub refreshTracks
 			    	rollback($dbh); #just die if rollback is failing
 			    };
 			}		
-			$sql = "CREATE temp table temp_track_statistics as select tracks.url,tracks.urlmd5,tracks.musicbrainz_id from tracks join track_statistics on tracks.musicbrainz_id=track_statistics.musicbrainz_id where track_statistics.musicbrainz_id is not null and track_statistics.urlmd5!=tracks.urlmd5";
+			$sql = "CREATE temp table temp_track_statistics as select tracks.url,tracks.urlmd5,tracks.musicbrainz_id from tracks join track_statistics on tracks.musicbrainz_id=track_statistics.musicbrainz_id where track_statistics.musicbrainz_id is not null and track_statistics.urlmd5!=tracks.urlmd5 and track_statisticc
+s.filesize != tracks.filesize";
 			$sth = $dbh->prepare( $sql );
 			$count = 0;
 			eval {
